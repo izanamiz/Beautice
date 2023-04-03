@@ -1,0 +1,278 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    padding: 0 24px 48px;
+}
+
+.c-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.d-none {
+    display: none;
+}
+.d-sm-block{
+    display: block;
+}
+.container {
+    width: 90%;
+}
+.ow {
+    margin-left: auto;
+    margin-right: auto;
+}
+.ct {
+    text-align: center;
+}
+.main-slider {
+    margin-top: 50px;
+}
+.main-slider-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.slide-btn {
+    margin-left: 0;
+}
+.core {
+    background-position: 100% 100%;
+}
+.services .row {
+    margin-left: 0;
+}
+.about-list-btn {
+    justify-content: center;
+}
+.about-img {
+    padding-left: 0;
+}
+.about-container > .row {
+    margin-left: 0;
+}
+.proteams-list {
+    display: block;
+}
+.contact-list {
+    display: block;
+    margin-left: 0;
+}
+.contact-list-item {
+    margin: 0 auto;
+}
+.contact-list-item:last-child {
+    margin: 0 auto;
+}
+.footer {
+    background-size: auto 100%;
+}
+.footer-list {
+    display: block;
+    margin-left: 0;
+}
+.footer-text-sub-list {
+    justify-content: center;
+}
+.ft-list {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ft-list-item {
+    margin: 11px 11px;
+}
+.ft-bottom {
+    margin-top: 50px;
+    margin-left: 0;
+    justify-content: center;
+}
+.bottom-nav {
+    display: block;
+}
+html{
+    font-size: 0.8rem;
+}
+/* >= Tablet */
+@media (min-width: 740px) {
+    .col {
+        padding: 0 12px 24px;
+    }
+    .ow {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ct {
+        text-align: center;
+    }
+    .container {
+        width: 90%;
+    }
+
+    .m-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .m-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .d-md-none {
+        display: none;
+    }
+    .d-md-block{
+        display: block;
+    }
+
+    .main-slider-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slide-btn {
+        margin-left: 0px;
+    }
+    .services .row {
+        margin-left: 0;
+    }
+    .about-list-btn {
+        justify-content: center;
+    }
+    .about-img {
+        padding-left: 0;
+    }
+    .about-container > .row {
+        margin-left: 0;
+    }
+    .proteams-list {
+        display: block;
+    }
+    .contact-list {
+        display: block;
+        margin-left: 0;
+    }
+    .contact-list-item:last-child {
+        margin: 0 auto;
+    }
+    .footer {
+        background-size: auto 100%;
+    }
+    .footer-list {
+        display: block;
+        margin-left: 0;
+    }
+    .footer-text-sub-list {
+        justify-content: center;
+    }
+    .ft-list {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .ft-list-item {
+        margin: 11px 11px;
+    }
+    .ft-bottom {
+        margin-top: 50px;
+        margin-left: 0;
+        justify-content: center;
+    }
+    .bottom-nav {
+        display: block;
+    }
+    html{
+        font-size: 0.9rem;
+    }
+}
+
+/* PC medium resolution > */
+@media (min-width: 1113px) {
+    .col {
+        padding: unset;
+    }
+    .ow {
+        margin: unset;
+    }
+    .ct {
+        text-align: unset;
+    }
+
+    .l-3-6 {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+
+    .l-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .d-flex {
+        display: flex !important;
+    }
+    .d-lg-none{
+        display: none;
+    }
+    .main-slider {
+        margin-top: 166px;
+    }
+    .main-slider-img {
+        margin-left: -75px;
+        margin-top: -15px;
+    }
+    .slide-btn {
+        margin-left: -100px;
+    }
+    .core {
+        background-position: 100% 200%;
+    }
+    .services .row {
+        margin-left: -15px;
+    }
+    .about-container > .row {
+        margin-left: -15px;
+    }
+    .about-list-btn {
+        justify-content: start;
+    }
+    .about-img {
+        padding-left: 88px;
+    }
+    .proteams-list {
+        display: flex;
+    }
+    .contact-list {
+        display: flex;
+        margin-left: -15px;
+    }
+    .contact-list-item:last-child {
+        margin: 0 15px 0 100px;
+    }
+    .footer {
+        background-size: 100% 100%;
+    }
+    .footer-list {
+        display: flex;
+        margin-left: -15px;
+    }
+    .footer-text-sub-list {
+        justify-content: start;
+    }
+    .ft-list {
+        flex-direction: column;
+        align-items: start;
+    }
+    .ft-list-item {
+        margin: 11px 0 0;
+    }
+    .ft-bottom {
+        margin-top: 140.05px;
+        margin-left: -15px;
+        justify-content: space-between;
+    }
+    .bottom-nav {
+        display: none;
+    }
+    html{
+        font-size: 1rem;
+    }
+}

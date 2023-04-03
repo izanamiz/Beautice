@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home 1</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/res.css" />
+    <script src="./js/main.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f8a01d5cf9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <div class="container header-container">
+        <div class="site-header">
+          <div class="main-logo">
+            <img src="assets/img/MainLogo.png" alt="main-logo" />
+          </div>
+          <div class="header-nav d-flex d-md-none d-none">
+            <ul class="header-nav__list">
+              <li class="active">Home <span>+</span></li>
+              <li>About</li>
+              <li>Service</li>
+              <li>Gallery</li>
+              <li>Blog</li>
+            </ul>
+            <button class="btn btn-text">Contact</button>
+          </div>
+          <div
+            class="modal-btn d-lg-none d-md-block d-sm-block"
+            onclick="displayBlock()"
+          >
+            <i class="fa-solid fa-bars-progress fa-2xl"></i>
+          </div>
+        </div>
+        <div class="main-slider">
+          <div class="row ct">
+            <div class="col l-6 m-12 c-12 ow">
+              <div class="main-slider-title">Clinic & beauty consultant</div>
+              <div class="main-slider-desc ow">
+                It is a long established fact that a reader will be by the
+                readable content of a page.
+              </div>
+              <button class="btn btn-text more-details">More details</button>
+            </div>
+            <div class="col l-6 m-12 c-12">
+              <img src="assets/img/Frame1.png" class="main-slider-img ow" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-btn">
+      <div class="btn-item"></div>
+      <div class="btn-item btn-item-active"></div>
+      <div class="btn-item"></div>
+    </div>
+    <!-- Core Services  -->
+
+    <div class="core">
+      <div class="container services-container">
+        <div class="title core-title">Main Services</div>
+        <div class="heading core-heading">
+          Learn services to focus on your beauty
+        </div>
+        <div class="desc core-desc">
+          Porta rhoncus orci condimentum vitae lobortis eu dignissim non massa.
+          Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla
+          turpis.
+        </div>
+        <div class="services">
+          <div class="row">
+            <div class="col l-3-6 m-6 c-12">
+              <div class="service-item">
+                <img src="assets/img/Animation1.png" alt="" />
+                <div class="item-text service-item-heading">
+                  Beauty consultation
+                </div>
+                <div class="item-text service-item-desc">
+                  Non parturient amet, feugiat tellus sagittis, scelerisque eget
+                  nulla turpis
+                </div>
+              </div>
+            </div>
+            <div class="col l-3-6 m-6 c-12">
+              <div class="service-item">
+                <img src="assets/img/Animation2.png" alt="" />
+                <div class="item-text service-item-heading">
+                  Skin treatments
+                </div>
+                <div class="item-text service-item-desc">
+                  Non parturient amet, feugiat tellus sagittis, scelerisque eget
+                  nulla turpis
+                </div>
+              </div>
+            </div>
+            <div class="col l-3-6 m-6 c-12 ow">
+              <div class="service-item">
+                <img src="assets/img/Animation3.png" alt="" />
+                <div class="item-text service-item-heading">Beauty product</div>
+                <div class="item-text service-item-desc">
+                  Non parturient amet, feugiat tellus sagittis, scelerisque eget
+                  nulla turpis
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- About -->
+      <div class="container about-container">
+        <div class="row ct">
+          <div class="col l-6 m-12 c-12">
+            <div class="title about-titel">About Us</div>
+            <div class="heading about-heading">
+              We are the best beauty clinic
+            </div>
+            <div class="desc about-desc ow">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit,
+              quam suscipit purus donec amet. Egestas volutpat facilisi eu
+              libero. Nunc, ipsum ornare mauris sit quam quis enim. Varius
+              tellus in suspendisse placerat.<br /><br />
+              Id dui erat sed quam tellus in purus. Pellentesque congue
+              fringilla cras tellus enim.
+            </div>
+            <div class="about-list-btn ow">
+              <div class="about-list-item">
+                <button class="btn btn-text learn-more">Learn More</button>
+              </div>
+              <div class="about-list-item">
+                <div class="watch-list-item">
+                  <img src="assets/img/Play_button.png" alt="" />
+                  <div class="service-item-heading">Watch Video</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col l-6 m-12 c-12">
+            <img
+              class="about-img ct"
+              src="assets/img/unsplash_LRXYS0tSyGc.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pro Teams  -->
+    <div class="pro">
+      <div class="container pro-container">
+        <div class="title pro-title">Professional Teams</div>
+        <div class="heading pro-heading">The Professional expert</div>
+        <div class="desc pro-desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.
+        </div>
+        <div class="proteams-list">
+          <div class="pro-item">
+            <img src="assets/img/pro1.png" alt="" />
+            <div class="pro-item-title">Surgeon</div>
+            <div class="pro-item-heading">Briyan Nevalli</div>
+            <div class="pro-item-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit
+            </div>
+            <div class="pro-list-icon">
+              <div class="pro-icon">
+                <img src="assets/img/Vector1.png" alt="" />
+              </div>
+              <div class="pro-icon">
+                <img src="assets/img/Vector2.png" alt="" />
+              </div>
+              <div class="pro-icon">
+                <img src="assets/img/Vector3.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="pro-item">
+            <img src="assets/img/pro2.png" alt="" />
+            <div class="pro-item-title">Dermatologist</div>
+            <div class="pro-item-heading">Bella sebastian</div>
+            <div class="pro-item-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit
+            </div>
+            <div class="pro-list-icon">
+              <div class="pro-icon">
+                <img src="assets/img/Vector1.png" alt="" />
+              </div>
+              <div class="pro-icon">
+                <img src="assets/img/Vector2.png" alt="" />
+              </div>
+              <div class="pro-icon">
+                <img src="assets/img/Vector3.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="pro-item">
+            <img src="assets/img/pro3.png" alt="" />
+            <div class="pro-item-title">Stylist expert</div>
+            <div class="pro-item-heading">Lilly Adams</div>
+            <div class="pro-item-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit
+            </div>
+            <div class="pro-list-icon">
+              <div class="pro-icon">
+                <img src="assets/img/Vector1.png" alt="" />
+              </div>
+              <div class="pro-icon">
+                <img src="assets/img/Vector2.png" alt="" />
+              </div>
+              <div class="pro-icon">
+                <img src="assets/img/Vector3.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="contact">
+      <div class="container contact-container">
+        <div class="contact-list ct">
+          <div class="contact-list-item">
+            <img
+              src="assets/img/ContactAnimations.png"
+              alt=""
+              class="contact-img"
+            />
+          </div>
+          <div class="contact-list-item">
+            <div class="title contact-title">Contact Us</div>
+            <div class="heading contact-heading ow">
+              Send your inquiry to our expert team
+            </div>
+            <div class="desc contact-desc">
+              Lorem ipsum dolor sit amet nulla turapis tellus.
+            </div>
+            <div class="contact-form">
+              <div class="input-name">
+                <input
+                  class="input-name-text"
+                  type="text"
+                  placeholder="First name"
+                  style="margin-right: 2.225rem"
+                />
+                <input
+                  class="input-name-text"
+                  type="text"
+                  placeholder="Last name"
+                />
+              </div>
+              <input
+                class="input-email"
+                placeholder="Email address"
+                type="text"
+              />
+              <input
+                class="input-email"
+                placeholder="Subject message"
+                type="text"
+              />
+              <textarea
+                class="note"
+                placeholder="Your inquiry here"
+                cols="20"
+                rows="10"
+              ></textarea>
+              <button class="btn btn-text send">Send Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer  -->
+    <div class="footer">
+      <div class="container footer-container">
+        <div class="footer-list">
+          <div class="col footer-item ct">
+            <img src="assets/img/FooterLogo.png" alt="" />
+            <div class="footer-text">
+              <span class="fw700">Beautice</span> is a Beauty Clinic WordPress
+              Theme.
+            </div>
+            <div class="footer-text-sub">
+              Baker Steet 101, NY, United States.
+            </div>
+            <div class="footer-text-sub-list">
+              <div>+521 569 8966.</div>
+              <div>mail@company.com.</div>
+            </div>
+          </div>
+
+          <div class="col footer-item ct">
+            <div class="ft-heading">Pages</div>
+            <div class="ft-list">
+              <div class="ft-list-item">
+                <img src="assets/img/link-to.svg" alt="" />
+                <div class="ft-list-item-txt">Home</div>
+              </div>
+              <div class="ft-list-item">
+                <img src="assets/img/link-to.svg" alt="" />
+                <div class="ft-list-item-txt">About</div>
+              </div>
+              <div class="ft-list-item">
+                <img src="assets/img/link-to.svg" alt="" />
+                <div class="ft-list-item-txt">Services</div>
+              </div>
+              <div class="ft-list-item">
+                <img src="assets/img/link-to.svg" alt="" />
+                <div class="ft-list-item-txt">Gallery</div>
+              </div>
+              <div class="ft-list-item">
+                <img src="assets/img/link-to.svg" alt="" />
+                <div class="ft-list-item-txt">Team</div>
+              </div>
+            </div>
+          </div>
+          <div class="col footer-item ct">
+            <div class="ft-heading">Informations</div>
+            <div class="ft-list">
+              <div class="ft-list-item">
+                <img src="assets/img/link-to.svg" alt="" />
+                <div class="ft-list-item-txt">Terms & condition</div>
+              </div>
+              <div class="ft-list-item">
+                <img src="assets/img/link-to.svg" alt="" />
+                <div class="ft-list-item-txt">Privacy</div>
+              </div>
+              <div class="ft-list-item">
+                <img src="assets/img/link-to.svg" alt="" />
+                <div class="ft-list-item-txt">Blog</div>
+              </div>
+              <div class="ft-list-item">
+                <img src="assets/img/link-to.svg" alt="" />
+                <div class="ft-list-item-txt">Contact</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ft-bottom">
+          <div class="col ft-bottom-list-img">
+            <img class="ft-bottom-img" src="assets/img/facebook-f.png" />
+            <img class="ft-bottom-img" src="assets/img/twitter.png" />
+            <img class="ft-bottom-img" src="assets/img/linkedin-in.png" />
+            <img class="ft-bottom-img" src="assets/img/youtube.png" />
+            <img class="ft-bottom-img" src="assets/img/instagram.png" />
+          </div>
+          <div class="col ft-bottom-text">
+            © AltDesain Studio 2021 - All right reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-footer"></div>
+    <button class="btn to-top" onclick="backToTop()">
+      <img src="assets/img/arrow-up.svg" alt="" />
+    </button>
+
+    <!-- <div class="bottom-nav">
+      <div class="bot-nav-list">
+        <div class="bot-nav-item">
+          <i class="fa-solid fa-house fa-2xl"></i>
+          <div class="">Home</div>
+        </div>
+        <div class="bot-nav-item">
+          <i class="fa-sharp fa-solid fa-circle-info fa-2xl"></i>
+          <div class="">About</div>
+        </div>
+        <div class="bot-nav-item">
+          <i class="fa-solid fa-wrench fa-2xl"></i>
+          <div class="">Service</div>
+        </div>
+        <div class="bot-nav-item">
+          <i class="fa-solid fa-images fa-2xl"></i>
+          <div class="">Gallery</div>
+        </div>
+        <div class="bot-nav-item">
+          <i class="fa-solid fa-pen-to-square fa-2xl"></i>
+          <div class="">Blog</div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="modal">
+      <div class="">Home</div>
+      <div class="">About</div>
+      <div class="">Service</div>
+      <div class="">Gallery</div>
+      <div class="">Block</div>
+    </div>
+    <div class="overlay" onclick="displayNone()"></div>
+  </body>
+</html>
