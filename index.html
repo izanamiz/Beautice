@@ -22,9 +22,19 @@
     <div class="header">
       <div class="container header-container">
         <div class="site-header">
-          <div class="main-logo">
-            <img src="assets/img/MainLogo.png" alt="main-logo" />
+          <div
+            class="modal-btn d-flex d-md-flex d-sm-flex"
+            onclick="displayBlock()"
+          >
+            <i
+              class="fa-solid fa-bars fa-2xl d-lg-none d-md-block d-sm-block"
+              style="font-size: 3em"
+            ></i>
+            <div class="main-logo">
+              <img src="assets/img/MainLogo.png" alt="main-logo" />
+            </div>
           </div>
+
           <div class="header-nav d-flex d-md-none d-none">
             <ul class="header-nav__list">
               <li class="active">Home <span>+</span></li>
@@ -34,12 +44,6 @@
               <li>Blog</li>
             </ul>
             <button class="btn btn-text">Contact</button>
-          </div>
-          <div
-            class="modal-btn d-lg-none d-md-block d-sm-block"
-            onclick="displayBlock()"
-          >
-            <i class="fa-solid fa-bars-progress fa-2xl"></i>
           </div>
         </div>
         <div class="main-slider">
@@ -289,8 +293,8 @@
     <!-- Footer  -->
     <div class="footer">
       <div class="container footer-container">
-        <div class="footer-list">
-          <div class="col footer-item ct">
+        <div class="row">
+          <div class="col l-6 m-12 c-12 ct">
             <img src="assets/img/FooterLogo.png" alt="" />
             <div class="footer-text">
               <span class="fw700">Beautice</span> is a Beauty Clinic WordPress
@@ -304,50 +308,70 @@
               <div>mail@company.com.</div>
             </div>
           </div>
+          <div class="col l-6 m-12 c-12">
+            <div class="row">
+              <div class="col l-6 m-6 c-12">
+                <div class="ft-items">
+                  <div class="ft-list">
+                    <div class="ft-item-wrap">
+                      <div class="ft-list-item">
+                        <div class="ft-heading">Pages</div>
+                      </div>
+                    </div>
+                    <div class="ft-item-wrap">
+                      <div class="ft-list-item">
+                        <img src="assets/img/link-to.svg" alt="" />
+                        <div class="ft-list-item-txt">Home</div>
+                      </div>
+                      <div class="ft-list-item">
+                        <img src="assets/img/link-to.svg" alt="" />
+                        <div class="ft-list-item-txt">About</div>
+                      </div>
+                      <div class="ft-list-item">
+                        <img src="assets/img/link-to.svg" alt="" />
+                        <div class="ft-list-item-txt">Services</div>
+                      </div>
+                      <div class="ft-list-item">
+                        <img src="assets/img/link-to.svg" alt="" />
+                        <div class="ft-list-item-txt">Gallery</div>
+                      </div>
+                      <div class="ft-list-item">
+                        <img src="assets/img/link-to.svg" alt="" />
+                        <div class="ft-list-item-txt">Team</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col l-6 m-6 c-12">
+                <div class="ft-items">
+                  <div class="ft-list">
+                    <div class="ft-item-wrap">
+                      <div class="ft-list-item">
+                        <div class="ft-heading">Informations</div>
+                      </div>
+                    </div>
 
-          <div class="col footer-item ct">
-            <div class="ft-heading">Pages</div>
-            <div class="ft-list">
-              <div class="ft-list-item">
-                <img src="assets/img/link-to.svg" alt="" />
-                <div class="ft-list-item-txt">Home</div>
-              </div>
-              <div class="ft-list-item">
-                <img src="assets/img/link-to.svg" alt="" />
-                <div class="ft-list-item-txt">About</div>
-              </div>
-              <div class="ft-list-item">
-                <img src="assets/img/link-to.svg" alt="" />
-                <div class="ft-list-item-txt">Services</div>
-              </div>
-              <div class="ft-list-item">
-                <img src="assets/img/link-to.svg" alt="" />
-                <div class="ft-list-item-txt">Gallery</div>
-              </div>
-              <div class="ft-list-item">
-                <img src="assets/img/link-to.svg" alt="" />
-                <div class="ft-list-item-txt">Team</div>
-              </div>
-            </div>
-          </div>
-          <div class="col footer-item ct">
-            <div class="ft-heading">Informations</div>
-            <div class="ft-list">
-              <div class="ft-list-item">
-                <img src="assets/img/link-to.svg" alt="" />
-                <div class="ft-list-item-txt">Terms & condition</div>
-              </div>
-              <div class="ft-list-item">
-                <img src="assets/img/link-to.svg" alt="" />
-                <div class="ft-list-item-txt">Privacy</div>
-              </div>
-              <div class="ft-list-item">
-                <img src="assets/img/link-to.svg" alt="" />
-                <div class="ft-list-item-txt">Blog</div>
-              </div>
-              <div class="ft-list-item">
-                <img src="assets/img/link-to.svg" alt="" />
-                <div class="ft-list-item-txt">Contact</div>
+                    <div class="ft-item-wrap">
+                      <div class="ft-list-item">
+                        <img src="assets/img/link-to.svg" alt="" />
+                        <div class="ft-list-item-txt">Terms & condition</div>
+                      </div>
+                      <div class="ft-list-item">
+                        <img src="assets/img/link-to.svg" alt="" />
+                        <div class="ft-list-item-txt">Privacy</div>
+                      </div>
+                      <div class="ft-list-item">
+                        <img src="assets/img/link-to.svg" alt="" />
+                        <div class="ft-list-item-txt">Blog</div>
+                      </div>
+                      <div class="ft-list-item">
+                        <img src="assets/img/link-to.svg" alt="" />
+                        <div class="ft-list-item-txt">Contact</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -371,31 +395,6 @@
     <button class="btn to-top" onclick="backToTop()">
       <img src="assets/img/arrow-up.svg" alt="" />
     </button>
-
-    <!-- <div class="bottom-nav">
-      <div class="bot-nav-list">
-        <div class="bot-nav-item">
-          <i class="fa-solid fa-house fa-2xl"></i>
-          <div class="">Home</div>
-        </div>
-        <div class="bot-nav-item">
-          <i class="fa-sharp fa-solid fa-circle-info fa-2xl"></i>
-          <div class="">About</div>
-        </div>
-        <div class="bot-nav-item">
-          <i class="fa-solid fa-wrench fa-2xl"></i>
-          <div class="">Service</div>
-        </div>
-        <div class="bot-nav-item">
-          <i class="fa-solid fa-images fa-2xl"></i>
-          <div class="">Gallery</div>
-        </div>
-        <div class="bot-nav-item">
-          <i class="fa-solid fa-pen-to-square fa-2xl"></i>
-          <div class="">Blog</div>
-        </div>
-      </div>
-    </div> -->
 
     <div class="modal">
       <div class="">Home</div>

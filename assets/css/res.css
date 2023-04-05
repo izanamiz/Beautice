@@ -5,7 +5,10 @@
 .col {
     padding: 0 24px 48px;
 }
-
+.c-12 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
 .c-12 {
     flex: 0 0 100%;
     max-width: 100%;
@@ -13,7 +16,12 @@
 .d-none {
     display: none;
 }
-.d-sm-block{
+.d-sm-flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.d-sm-block {
     display: block;
 }
 .container {
@@ -74,11 +82,7 @@
 .footer-text-sub-list {
     justify-content: center;
 }
-.ft-list {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
+
 .ft-list-item {
     margin: 11px 11px;
 }
@@ -90,8 +94,13 @@
 .bottom-nav {
     display: block;
 }
-html{
+html {
     font-size: 0.8rem;
+}
+.ft-item-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 /* >= Tablet */
 @media (min-width: 740px) {
@@ -118,10 +127,10 @@ html{
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .d-md-none {
-        display: none;
+    .d-md-flex {
+        display: flex;
     }
-    .d-md-block{
+    .d-md-block {
         display: block;
     }
 
@@ -164,11 +173,7 @@ html{
     .footer-text-sub-list {
         justify-content: center;
     }
-    .ft-list {
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
+
     .ft-list-item {
         margin: 11px 11px;
     }
@@ -180,8 +185,12 @@ html{
     .bottom-nav {
         display: block;
     }
-    html{
+    html {
         font-size: 0.9rem;
+    }
+    .ft-item-wrap{
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -196,12 +205,14 @@ html{
     .ct {
         text-align: unset;
     }
-
     .l-3-6 {
         flex: 0 0 30%;
         max-width: 30%;
     }
-
+    .l-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
     .l-6 {
         flex: 0 0 50%;
         max-width: 50%;
@@ -209,7 +220,7 @@ html{
     .d-flex {
         display: flex !important;
     }
-    .d-lg-none{
+    .d-lg-none {
         display: none;
     }
     .main-slider {
@@ -257,10 +268,6 @@ html{
     .footer-text-sub-list {
         justify-content: start;
     }
-    .ft-list {
-        flex-direction: column;
-        align-items: start;
-    }
     .ft-list-item {
         margin: 11px 0 0;
     }
@@ -272,7 +279,15 @@ html{
     .bottom-nav {
         display: none;
     }
-    html{
+    html {
         font-size: 1rem;
+    }
+    .ft-items {
+        display: flex;
+        justify-content: space-between;
+    }
+    .ft-item-wrap{
+        display: flex;
+        flex-direction: column;
     }
 }

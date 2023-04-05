@@ -8,8 +8,10 @@ function backToTop() {
 function displayBlock() {
   document.querySelector(".modal").style.display = "block";
   document.querySelector(".overlay").style.display = "block";
+  document.body.style.overflow="hidden";
 }
 function displayNone() {
   document.querySelector(".modal").style.display = "none";
   document.querySelector(".overlay").style.display = "none";
+  document.body.style.overflow="auto";
 }

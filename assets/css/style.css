@@ -7,6 +7,7 @@
 html,
 body {
     overflow-wrap: break-word;
+    overflow-x: hidden;
 }
 html{
     width: 100vw;
@@ -501,7 +502,6 @@ textarea:focus-visible {
 .ft-list {
     display: flex;
     flex-direction: column;
-    align-items: start;
 }
 .ft-heading {
     margin-bottom: 24px;
@@ -623,7 +623,7 @@ textarea:focus-visible {
     position: fixed;
     z-index: 10;
     top: 0;
-    right: 0;
+    left: 0;
     height: 100vh;
     width: 18.75rem;
     background-color: #f1f2ff;
@@ -658,4 +658,8 @@ textarea:focus-visible {
 
 .modal-btn {
     cursor: pointer;
+}
+.ft-items{
+    display: flex;
+    justify-content: center;
 }
