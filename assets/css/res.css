@@ -97,7 +97,7 @@
 html {
     font-size: 0.8rem;
 }
-.ft-item-wrap{
+.ft-item-wrap {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -188,7 +188,7 @@ html {
     html {
         font-size: 0.9rem;
     }
-    .ft-item-wrap{
+    .ft-item-wrap {
         display: flex;
         flex-direction: column;
     }
@@ -221,7 +221,7 @@ html {
         display: flex !important;
     }
     .d-lg-none {
-        display: none;
+        display: none !important;
     }
     .main-slider {
         margin-top: 166px;
@@ -286,7 +286,7 @@ html {
         display: flex;
         justify-content: space-between;
     }
-    .ft-item-wrap{
+    .ft-item-wrap {
         display: flex;
         flex-direction: column;
     }
