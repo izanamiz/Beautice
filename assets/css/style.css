@@ -7,11 +7,8 @@
 html,
 body {
     overflow-wrap: break-word;
-    overflow-x: hidden;
 }
-html{
-    width: 100vw;
-}
+
 body {
     min-height: 100vh;
 }
@@ -20,16 +17,25 @@ body {
     background-image: url(../img/SlideBackground.png);
     background-repeat: no-repeat;
     padding-bottom: 141px;
+    margin-top: -110.4px;
 }
 .container {
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
 }
 .header-container {
     max-width: 1166px;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: transparent;
+}
+.navbar-container {
+    max-width: 1166px;
     padding-top: 41px;
 }
-
 .site-header {
     display: flex;
     justify-content: space-between;
@@ -42,7 +48,6 @@ img {
 .header-nav {
     display: flex;
     align-items: center;
-    margin-top: -6px;
 }
 .header-nav__list {
     list-style-type: none;
@@ -86,9 +91,6 @@ img {
     line-height: 24px;
     letter-spacing: 0.1em;
     color: #ffffff;
-}
-.main-slider {
-    margin-top: 166px;
 }
 
 .main-slider-title {
@@ -621,26 +623,30 @@ textarea:focus-visible {
 }
 .modal {
     position: fixed;
-    z-index: 10;
-    top: 0;
+    z-index: 100;
+    top: 108px;
     left: 0;
-    height: 100vh;
-    width: 18.75rem;
-    background-color: #f1f2ff;
+    right: 0;
+    background-color: #e4e7ff;
+    opacity: 0.95;
     display: none;
 }
-.modal div {
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-bottom: 15px;
-    font-weight: 500;
-    font-size: 1rem;
+.modal-item {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 600;
+    font-size: 1.5rem;
     line-height: 24px;
     letter-spacing: 0.1em;
-    color: #8b8b8b;
+    color: #091156;
     cursor: pointer;
+    text-align: center;
 }
-
+.modal-item:hover {
+    background-color: #091156;
+    font-weight: 600;
+    color: #e4e7ff;
+}
 .overlay {
     position: fixed;
     top: 0;
@@ -650,16 +656,22 @@ textarea:focus-visible {
     background-color: rgba(0, 0, 0, 0.25);
     display: none;
 }
-.modal div:hover {
-    background-color: #ffff;
-    font-weight: 600;
-    color: #414880;
+.open {
+    color: #091156;
+    font-size: 3rem;
+    display: block;
+    cursor: pointer;
 }
-
+.close {
+    color: #091156;
+    font-size: 3rem;
+    display: block;
+    cursor: pointer;
+}
 .modal-btn {
     cursor: pointer;
 }
-.ft-items{
+.ft-items {
     display: flex;
     justify-content: center;
 }
